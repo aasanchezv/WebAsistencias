@@ -1,0 +1,49 @@
+.wrapper {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    flex-wrap: wrap;
+}
+
+.toolbar button {
+    padding: 4px 10px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.15s;
+}
+
+.toolbar button:hover { background: #f3f4f6; }
+
+.active { background: #e5e7eb !important; }
+
+.separator {
+    width: 1px;
+    height: 20px;
+    background: #e5e7eb;
+    margin: 0 4px;
+}
+
+.editor {
+    min-height: 200px;
+    max-height: 60vh;
+    overflow-y: auto;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 16px;
+    outline: none;
+}
+
+.editor :global(.ProseMirror) { outline: none; }
+.editor :global(.ProseMirror ul) { padding-left: 20px; list-style: disc; }
+.editor :global(.ProseMirror ol) { padding-left: 20px; list-style: decimal; }

@@ -1,0 +1,32 @@
+.textarea_label{
+   margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.textarea_container_simple{
+    padding: 5px;
+}
+
+.textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    background: #f3f3f3;
+    margin: auto 0 30px 0;
+    color: #505050;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.labelfor{
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}

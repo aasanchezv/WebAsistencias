@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+}
+
+.label{
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
+
+.icon{
+    width: 50px;
+}

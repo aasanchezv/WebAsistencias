@@ -1,0 +1,173 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 60px auto;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 350px auto;
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;
+}
+
+.content{
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons > div{
+    width: max-content;
+    margin-left: 10px;
+}
+
+.card{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.list{
+    padding: 30px;
+    background: rgba(255,255,255,.7);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #0000001a;
+}
+
+.empty{
+    text-align: center;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.item_header{
+    font-weight: 500;
+}
+
+.item_header,
+.item{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 20px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.item_header{
+    cursor: unset;
+}
+
+.item_column{
+    
+}
+
+.item:nth-of-type(2n-1) {
+  background: rgba(79,87,112,.1);
+}
+
+.item:hover{
+    color: #9BC31D;
+    background: rgba(196, 246, 34, 0.1);
+}
+
+.item_icon{
+    width: 25px;
+}
+
+.grid_2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.color_circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.back_container{
+    display: flex;
+}
+
+.back{
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.card_background{
+    background: #ffffff;
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+}
+
+.text_empty{
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
+
+.text_empty_icon{
+    width: 50px;
+}
+
+.error_c{
+    text-align: center;
+    margin: 10px auto 30px auto;
+}
+
+.error{
+    color: #ff0000;
+}
+
+.options{
+    display: flex;
+}
+
+.option{
+    margin-right: 15px;
+    background: #cecece;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.option_selected{
+    background: #ffffff;
+}

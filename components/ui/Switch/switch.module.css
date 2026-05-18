@@ -1,0 +1,47 @@
+.switch_group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.switch_row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.switch_label {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.switch {
+    width: 51px;
+    height: 31px;
+    background: #e5e7eb;
+    border-radius: 999px;
+    padding: 2px;
+    cursor: pointer;
+    transition: background 0.25s ease;
+    display: flex;
+    align-items: center;
+}
+
+.switch_on {
+    background: #22c55e;
+}
+
+.switch_thumb {
+    width: 27px;
+    height: 27px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    transition: transform 0.25s ease;
+}
+
+.switch_on .switch_thumb {
+    transform: translateX(20px);
+}

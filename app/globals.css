@@ -1,0 +1,36 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+html {
+    min-height: 100vh;
+    font-size: 16px;
+    background-image: url(/img/wallpaper_white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Variables por defecto (fallback) */
+:root {
+  --primary: #000;
+  --secondary: #666;
+  --bg: #fff;
+  --text: #000;
+}
+
+/* Layout base */
+main {
+  width: 100%;
+  min-height: 100%;
+}

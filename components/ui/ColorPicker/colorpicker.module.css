@@ -1,0 +1,89 @@
+.container {
+    height: max-content;
+    width: auto;
+    padding: 5px 10px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.preview {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    transition: background .1s;
+}
+
+.gradientWrap {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: crosshair;
+    border: 1px solid #cccccc;
+}
+
+.canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cursorCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.hue {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hash {
+    font-size: 15px;
+    font-family: monospace;
+    color: #939393;
+}
+
+.hexInput {
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 8px 10px;
+    background: #f9f9f9;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.copyBtn {
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background: #f9f9f9;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.copyBtn:hover {
+    background: #ececec;
+}
